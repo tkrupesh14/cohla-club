@@ -1,9 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import './Slide4.css'
-import ImgLight from './img-light.svg'
-import {AiFillCaretRight, AiFillCaretLeft} from 'react-icons/ai'
-import Img from './img.svg'
+import { AiFillCaretLeft} from 'react-icons/ai'
 function Slide4(props) {
   return (
     <div>
@@ -13,7 +11,7 @@ function Slide4(props) {
           <span className="right-icon"> <Link to='/slide3'> <AiFillCaretLeft className={`${props.isDarkMode ? 'icon-dark' : 'icon' }`}/></Link></span>
           </div>
           <div className="col-md-8">
-            <iframe src="https://tally.so/r/mVGeZN" frameborder="0" width='100%' height='100%'></iframe>
+          <iframe data-tally-src="https://tally.so/r/mVGeZN?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="cohla user requests"></iframe>
           
           </div>
           <div className="col-md-2">

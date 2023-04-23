@@ -1,9 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import './Slide3.css'
-import ImgLight from './img-light.svg'
 import {AiFillCaretRight, AiFillCaretLeft} from 'react-icons/ai'
-import Img from './img.svg'
 function Slide3(props) {
   return (
     <div>
